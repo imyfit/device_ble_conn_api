@@ -1,14 +1,12 @@
 <!-- _coverpage.md -->
 
-![logo](yundong.jpg)
+![logo](imyfit.png)
 
-# 生命在于运动，仪器有利运动 <small>3.5</small>
+> 时间 · 地点 · 人物 · 事件
+<br>
 
-> 一个神奇的帮助文档，有利于开发者
+> 我们专注于挖掘物联网核心价值
 
-- 短小
-- 生活处处皆运动
-- 精悍
+[官网](https://www.imyfit.com/)
+[开始](#概述)
 
-[GitHub](https://github.com/docsifyjs/docsify/)
-[Get Started](#Ble蓝牙通讯协议)
