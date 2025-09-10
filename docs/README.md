@@ -803,7 +803,7 @@ App请求
 | baro        | int    | 气压（Pa）                                                   |
 | wear        | int    | 佩戴状态（1：戴上，0：脱下）                                 |
 | sleep       | string | 睡眠数据："status,deep,light,rem,sober"<br />status - 睡眠状态（0：清醒，1：入睡）<br />deep - 深睡时间（mintue）<br />light - 浅睡时间（mintue）<br />rem - 眼动睡眠时间（mintue）<br />sober - 清醒时间（mintue） |
-| gnss        | string | 位置数据："timestamp,latitude,longitude,altitude"<br />timestamp - 当前位置数据时间戳（second）<br />latitude - 纬度 x1e6<br />longitude - 经度 x1e6<br />altitude - 海拔高度（meter） |
+| gnss        | string | 位置数据："onoff,sigqual,timestamp,latitude,longitude,altitude"<br />onoff - GNSS开关状态（0 关闭，1 开启）<br />sigqual - 信号强度（0 ~ 100）<br />timestamp - 当前位置数据时间戳（second）<br />latitude - 纬度 x1e6<br />longitude - 经度 x1e6<br />altitude - 海拔高度（meter） |
 | hrv         | string | HRV数据："SDNN,TP,LF,HF,VLF"<br />SDNN - SDNN x1000<br />TP - TP x1000<br />LF - LF x1000<br />HF - HF x1000<br />VLF - VLF x1000 |
 | hrv2        | string | HRV2数据："ment_stress,fatigue_level,stress_res,reg_ablty"；详细解析见 '全天HRV2' 项<br />ment_stress - 精神压力<br />fatigue_level - 疲劳度<br />stress_res - 抗压能力<br />reg_ablty - 调节能力 |
 
